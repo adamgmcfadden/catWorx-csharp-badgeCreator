@@ -37,12 +37,14 @@ namespace CatWorx.BadgeMaker
       }
       return employees;
     }
-    static void Main(string[] args) // entry point
+   static void Main(string[] args)
     {
-      // This is our employee-getting code now
-      List<Employee> employees = GetEmployees();
-      Util.PrintEmployees(employees);
+      List<Employee> employees = new List<Employee>();
+
+      employees = GetEmployees();
+
       Util.MakeCSV(employees);
+      Util.MakeBadges(employees);
     }
   }
 }

@@ -13,3 +13,9 @@ C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeM
 C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeMaker\obj\Debug\net6.0\ref\CarWorx.BadgeMaker.dll
 C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeMaker\obj\Debug\net6.0\CarWorx.BadgeMaker.pdb
 C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeMaker\obj\Debug\net6.0\CarWorx.BadgeMaker.genruntimeconfig.cache
+C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeMaker\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeMaker\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeMaker\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeMaker\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeMaker\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\adam_\OneDrive\Bureau\Carleton - Continuation Courses\C#\CarWorx.BadgeMaker\obj\Debug\net6.0\CarWorx.BadgeMaker.csproj.CopyComplete

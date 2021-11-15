@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SxF4fxR7FXxswzvzXwk824ORRSBxBW4dVurGv53mtW0AC/O9g9feoIhHJFgZaU5euY/jImRJPpmUVvG5Muk46w==",
+  "dgSpecHash": "xQXnXSiKwATuOWK1RcsxQNHpNQZiLGvNhSruz5zYQStX3gmBlqqioIV39vIJnn40UjQd+hb5/Izj8jnDtq9aCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\adam_\\OneDrive\\Bureau\\Carleton - Continuation Courses\\C#\\CarWorx.BadgeMaker\\CarWorx.BadgeMaker.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\adam_\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\adam_\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
