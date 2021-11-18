@@ -8,7 +8,7 @@ A C# application that uses .NET framework to generate Employee Badges either man
 
 #### Language Used: 
 
-![Language](https://img.shields.io/badge/C#-green.svg "Language Badge")
+![Language](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 ## Table of Contents
 
