@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xQXnXSiKwATuOWK1RcsxQNHpNQZiLGvNhSruz5zYQStX3gmBlqqioIV39vIJnn40UjQd+hb5/Izj8jnDtq9aCA==",
+  "dgSpecHash": "E8zna1vObbGU62GXQt4csOIIBKP6lI9yLCgN7Q6lI9E2ixhxbo4iqI9FQCGn+htYRSS7WMU6ROFo+as7O0UKqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\adam_\\OneDrive\\Bureau\\Carleton - Continuation Courses\\C#\\CarWorx.BadgeMaker\\CarWorx.BadgeMaker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adam_\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\adam_\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\adam_\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
   ],
   "logs": []

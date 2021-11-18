@@ -5,46 +5,23 @@ namespace CatWorx.BadgeMaker
 {
   class Program
   {
-     static List<Employee> GetEmployees()
-    {
-      // creates new list of employees
-      List<Employee> employees = new List<Employee>();
-      // Collects user values until the value is an empty string
-      while (true)
-      {
-        Console.WriteLine("Please enter a name: (leave empty to exit)");
-         // ask user for input
-        string firstName = Console.ReadLine();
-        if (firstName == "")
-        {
-          // Break if the user hits ENTER without typing a name
-          break;
-        }
-
-        // add a Console.readline for each value
-        Console.Write("Enter last name: ");
-        string lastName = Console.ReadLine();
-
-        Console.Write("Enter employee ID: ");
-        int id = Int32.Parse(Console.ReadLine());
-
-        Console.Write("Enter photo URL: ");
-        string photoUrl = Console.ReadLine();
-        // Create a new employee instance
-        Employee currentEmployee = new Employee(firstName, lastName, id, photoUrl);
-        // add employee (userInput) to employees List
-        employees.Add(currentEmployee);
-      }
-      return employees;
-    }
    static void Main(string[] args)
     {
-      List<Employee> employees = new List<Employee>();
-
-      employees = GetEmployees();
-
-      Util.MakeCSV(employees);
-      Util.MakeBadges(employees);
+      Console.WriteLine("Would you like to fetch employees from an API or manually add them? Answer: API or ADD");
+      string answer = Console.ReadLine();
+      if (answer == "API" || answer == "api") {
+        List<Employee> employees = new List<Employee>();
+          employees = PeopleFetcher.GetFromApi();
+           Util.MakeCSV(employees);
+           Util.MakeBadges(employees);
+      } else if (answer == "ADD" || answer == "add") {
+          List<Employee> employees = new List<Employee>();
+          employees = PeopleFetcher.GetEmployees();
+          Util.MakeCSV(employees);
+          Util.MakeBadges(employees);
+      } else {
+        Console.WriteLine("Wrong input, try again");
+      }    
     }
   }
 }
